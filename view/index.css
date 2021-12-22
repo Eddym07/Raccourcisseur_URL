@@ -1,0 +1,114 @@
+/* je met mon body en margin et padding à 0 pour que mon site colle bien au bordure de la page*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1 {
+    color: white;
+    text-align: center; /* Permet de centrer le texte*/
+    text-transform: uppercase; /* Permet de mettre en majuscule */
+    font-weight: 400;
+    font-size: 2.9em; /* j'augmente le texte de 2.9 fois par rapport au texte d'origine*/
+    margin-bottom: 10px; /* Pour rapprocher le titre h1 du h2. je baisse le h1 de 10px en bas*/
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+h3 {
+    margin: 0;
+    color: #ee6623;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+input[type=url]{
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+    padding: 17px 30px;
+    border: none;
+    width: 50%;
+    font-size: 1.3em;
+}
+
+input[type=submit] {
+    cursor: pointer; /* Pour modifier le pointer quand on passe dessus*/
+    padding: 17px 30px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 3px;
+    background: #ee6123;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* Permet de contenir un boite dans le parents*/
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #ee6123;
+    font-weight:bold;
+    text-decoration:none;
+}
+#hello{
+    background-image: url("../view/img/hello.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover; /* Permet de mettre l'image en plein format dans son container*/
+}
+
+#hello form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#brands {
+    background-color: #eff7fc;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+header {
+    padding: 30px; /* Je fais un padding du header qui contient le logo pour l'écarter des bordures. */
+}
+
+
+header #logo{
+height: 50px;
+}
+
+#footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9em; /* permet de baisser de 10% de la taille de base (1em = taille de base*/
+}
+
+footer #logo {
+    height: 35px;
+    margin: 10px;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto /* Je dis que en haut et bas je veux aucune marge, mais une marge auto à droite et à gauche*/
+}
+
+.picture {
+    height: 35px;
+    margin: 15px;
+}
+
